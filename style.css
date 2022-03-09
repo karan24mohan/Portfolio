@@ -1,43 +1,43 @@
-body{
+body {
     font-family: Serif;
 }
 
-body h2{
+body h2 {
     font-size: 3rem;
     color: #FA4848;
     font-weight: 700;
 }
 
-body p{
+body p {
     font-size: 22px;
 }
 
-.header{
+.header {
     position: fixed;
     width: 100%;
     top: 0px;
 }
 
-.container-fluid{
+.container-fluid {
     background-color: #1c4b82;
 }
 
-.navbar{
+.navbar {
     padding: 0%;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 2rem;
     font-family: fantasy;
 }
 
-.navbar-nav{
+.navbar-nav {
     font-size: 22px;
     width: 50%;
     justify-content: space-between;
 }
 
-.navbar-light .navbar-brand{
+.navbar-light .navbar-brand {
     color: white;
 }
 
@@ -45,117 +45,114 @@ body p{
     color: white;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover {
     color: white;
 }
 
-.karan-image img{
+.karan-image img {
     width: 80%;
     border-radius: 50%;
 }
 
-.intro{
+.intro {
     margin-top: 10%;
 }
 
-.introduction p{
+.introduction p {
     font-size: 1.5rem;
     font-family: cursive;
 }
 
-.media-icons{
+.media-icons {
     display: flex;
     justify-content: space-between;
     width: 30%;
     margin-top: 10%;
 }
 
-.media-icons a{
-    color:unset;
+.media-icons a {
     text-decoration: none;
-    position: relative;
     color: #262626;
     transition: .5s;
-    z-index: 3;
 }
 
-.media-icons a:hover{
+.media-icons a:hover {
     color: #398AB9;
     transform: rotateY(360deg);
 }
 
-.about{
+.about {
     margin-top: 7%;
     text-align: center;
 }
 
-.my-work{
+.my-work {
     margin-top: 7%;
     text-align: center;
 }
 
-.works{
+.works {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
 
-.work1{
+.work1 {
     width: 40%;
     margin-top: 5%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.work1 img{
+.work1 img {
     width: 100%;
     margin-bottom: 5%;
 }
 
-.work2{
+.work2 {
     width: 40%;
     margin-top: 5%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.work2 img{
+.work2 img {
     width: 100%;
     margin-bottom: 5%;
 }
 
-.skills{
+.skills {
     text-align: center;
     margin-top: 7%;
 }
 
-.skill{
+.skill {
     display: flex;
     justify-content: center;
     margin-top: 3%;
 }
 
-.skills-icons{
+.skills-icons {
     width: 25%;
     display: flex;
     justify-content: space-between;
 }
 
-#html{
+#html {
     color: orangered;
 }
 
-#css{
+#css {
     color: blue;
 }
 
-#js{
+#js {
     color: gold;
 }
 
-#bootstrap{
+#bootstrap {
     color: mediumpurple;
 }
 
-.footer{
+.footer {
     background-color: #1c4b82;
     color: white;
     display: flex;
@@ -166,64 +163,55 @@ body p{
     margin-top: 5%;
 }
 
-.media-icons-footer a{
+.media-icons-footer a {
     color: white;
 }
 
-#copyright{
+#copyright {
     margin-bottom: 0rem;
     padding-top: 5px;
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
         display: flex!important;
         flex-basis: auto;
         justify-content: end;
-}
+    }
 }
 
 @media screen and (max-width: 769px) {
-
-    .intro{
+    .intro {
         margin-top: 25%;
     }
-
-    .karan-image{
+    .karan-image {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-
-    .introduction{
+    .introduction {
         text-align: center;
         margin-top: 5%;
     }
-
-    .media-icons{
+    .media-icons {
         text-align: center;
         width: 100%;
     }
-
-    .about{
+    .about {
         margin-top: 15%;
     }
-
-    .my-work{
+    .my-work {
         margin-top: 15%;
     }
-
-    .skills{
+    .skills {
         margin-top: 15%;
     }
-
-    .skill{
+    .skill {
         width: 100%;
         display: block;
         margin-top: 7%;
     }
-
-    .skills-icons{
+    .skills-icons {
         width: 100%;
     }
 }
